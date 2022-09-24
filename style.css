@@ -49,11 +49,12 @@
 .bore{
     border: 2px solid #18e418;
 }
-.section{
+/* .section{
     background-color: gray;
     width: 100%;
     height: 50vh;
     display: flex;
+    flex-wrap: wrap;
     padding-top: 18px;
     padding-bottom: 20px;
 }
@@ -86,4 +87,259 @@
 }
 .inp a:hover{
     background-color: firebrick;
+} */
+.section1{
+    background-color: grey;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
+.section2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.img2{
+    width: 50%;
+    padding-left: 15%;
+}
+.img2 img{
+    width: 85%;
+    height: 40vh;
+    border: 8px solid black;
+    border-radius: 10px 10px;
+}
+.para1{
+   width: 40%;
+   font-size: x-large;
+}
+.para1 p{
+    padding-top: 10px;
+}
+.button{
+    padding-top: 20px;
+}
+.button a{
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #18e418 ;
+    color: black;
+    font-size: medium;
+    padding: 10px 10px 10px 10px;
+    font-weight: bold;
+}
+.button a:hover{
+    background-color:firebrick;
+    font-weight: bolder;
+}
+
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.section3{
+    padding-top: 30px;
+    width: 35%;
+    margin-left: 15%;
+}
+.para2{
+   padding-bottom: 30px;
+}
+.para3 h4{
+    padding-bottom: 20px;
+}
+.para3 li{
+    padding-top:30px;
+}
+.para3 .list{
+    padding-left: 10px;
+    padding-top: 40px;
+}
+.para3 .list2{
+  padding-top: 20px;
+}
+.border1{
+    border: 1px solid gray;
+    width: 90%;
+}
+.border2{
+    border: 2px solid #18e418;
+    width: 20%;
+    
+}
+.border3{
+    border-left: 4px solid #18e418;
+    padding-left: 10px;
+}
+.para4{
+    padding-top: 4px;
+    background-color: gray;
+    height: 5vh;
+    border: 1px solid black;
+    border-radius: 10px 10px;   
+}
+/* .section6{
+    padding-left: 10px;
+    padding-top: 20px;
+    width: 40%;
+}
+.para10{
+    background-color: grey;
+}
+.content10{
+    margin-top: 20px;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid lightslategrey;
+    display: flex;
+    flex-wrap: wrap;
+}
+.img4 img{
+    width: 80%;
+    height: 13vh;
+}
+.card4{
+ width: 63%;
+}
+.border1{
+    margin-top: 10px;
+    border: 1px solid lightslategrey;
+    padding: 0px 10px 10px 10px;
+} */
+.ima{
+    padding-top: 20px;
+    padding-left: 30px;
+    width: 40%;
+
+  
+}
+ .pic img{
+    width: 110%;
+    height: 20vh;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.cont{
+    border: 2px solid gray;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+  
+    margin-top: 10px;
+    border-radius: 10px 10px;
+}
+.card1{
+    padding-left: 25px;
+    padding-top: 20px;
+}
+.box{
+    border: 2px solid gray;
+    padding: 10px 10px;
+    margin-top: 10px;
+    border-radius: 10px 10px;
+   
+    
+    
+}
+.container3{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+}
+.section5{
+    padding-left: 10%;
+    padding-top: 10px;
+   
+   }
+   .title2{
+       margin-top: 10px;
+       color: white;
+       width: 120%;
+       background-color: black;
+       border: 2px solid grey;
+       border-radius: 10px;
+       font-size: large;
+       text-transform: capitalize;
+       font-weight: bolder;
+       padding-left: 20px;
+       text-align: center;
+       padding-right: 20px;
+   
+     
+   }
+   .title2:hover{
+     background-color:burlywood;
+     color: black;
+
+   }
+   .section5 ul{
+       padding-top: 10px;
+   }
+   .section5 ul li{
+       padding-top: 5px;
+       text-decoration: none;
+       list-style: none;
+   }
+   .section5 ul li a{
+       color: white;
+       text-decoration: none;
+   }
+ /* ____________________________________________ */
+
+ @media  (max-width: 500px){
+
+
+    .container2{
+        
+       flex-direction: column;
+    }
+    .ima{
+        padding-top: 20px;
+        padding-left: 30px;
+        width: 100%;
+    
+      
+    }
+
+
+
+}
+ @media  (max-width: 450px){
+
+
+    .container2{
+        
+       flex-direction: column;
+    }
+    .ima{
+        padding-top: 20px;
+        padding-left: 30px;
+        width: 100%;
+    
+      
+    }
+
+
+
+}
+
+
+
+@media  (max-width: 400px){
+
+
+    .container2{
+        
+       flex-direction: column;
+    }
+    .ima{
+        padding-top: 20px;
+        padding-left: 30px;
+        width: 100%;
+    
+      
+    }
+
+
+
+}
+    
+
+
